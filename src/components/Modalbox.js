@@ -8,7 +8,7 @@ const Modalbox = ({ close, value }) => {
       tag: 'Angular 15, jira, Docker, Miro',
       desc: [
         {
-          p: 'User registers with phone number, allows user to be as anonymous as possible. Logged in user is able to submit a list of things needed as well as a location of where the trusted admin is to drop off the requested items. Admin is able to see a list of orders with the items requested from all users.',
+          p: 'Social media management website where user can create authentic content for reach and conversions. User can plan and publish his social media posts at scale or analyze the performance of his content.',
         },
       ],
       img: 'img/portfolio/facelift01.png'
