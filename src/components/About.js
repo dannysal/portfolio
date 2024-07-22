@@ -136,10 +136,10 @@ const About = () => {
                     <li>
                       <div className='item'>
                         <div className='item_top'>
-                          <h5>Softech Systems</h5>
+                          <h5>Facelift</h5>
                           <span>( Present )</span>
                         </div>
-                        <h3>Senior Software Engineer</h3>
+                        <h3>Software Engineer</h3>
                         <p>
                           <ul className='experience-list'>
                             <li>
