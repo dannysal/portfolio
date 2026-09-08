@@ -12,7 +12,8 @@ const About = () => {
             <h3 className='subtitle'>About Me</h3>
             <h3 className='title'>Biography</h3>
             <p className='desc'>
-              {`Highly passionate individual with a strong interest in developing and designing projects that require strong analytical and conceptual thinking. Ambitious to learn new technologies. Alongside technical skills in IT, I am a tech enthusiast and have experience in photography.`}
+              {/* {`Highly passionate individual with a strong interest in developing and designing projects that require strong analytical and conceptual thinking. Ambitious to learn new technologies. Alongside technical skills in IT, I am a tech enthusiast and have experience in photography.`} */}
+              {`Senior Software Engineer with 7+ years of experience designing and delivering enterprise web applications across frontend and backend systems. Specialized in AI, Angular, React, TypeScript, .NET Core, SQL, REST APIs, and modern application architecture, with experience building systems used by 50,000+ users. Own end-to-end feature delivery from architecture and implementation through automated testing, CI/CD, and production deployment. Experienced in modernizing legacy AngularJS applications, reducing page load times by up to 70%, building real-time communication and notification systems, designing microservices, and collaborating across product, design, QA, and engineering teams to deliver maintainablep roduction systems.`}
             </p>
           </div>
           {/* /Main Title */}
@@ -51,12 +52,12 @@ const About = () => {
                       </a>
                     </th>
                   </tr>
-                  <tr>
+                  {/* <tr>
                     <th>Skype</th>
                     <th>
                       <a href="skype:sadanish">sadanish</a>
                     </th>
-                  </tr>
+                  </tr> */}
                 </tbody>
               </table>
             </div>
