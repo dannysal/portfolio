@@ -58,13 +58,13 @@ const Contact = () => {
             <h3 className='title'>Get In Touch</h3>
             <p className='desc'>
               If you have any suggestion, project ideas, or even if you want to
-              say “hi”, please fill out the form below and I will reply you
+              say “hi”, please reach me out on the email below and I will reply you
               shortly.
             </p>
           </div>
           {/* /Main Title */}
           {/* Contact Form */}
-          <form className='contact_form' onSubmit={(e) => onSubmit(e)}>
+          {/* <form className='contact_form' onSubmit={(e) => onSubmit(e)}>
             <div
               className='success'
               data-success='Your message has been received, we will contact you soon.'
@@ -82,7 +82,6 @@ const Contact = () => {
               <span>Please Fill Required Fields!</span>
             </div>
 
-            {/* */}
             <div className='items_wrap'>
               <div className='items'>
                 <div className='item half'>
@@ -161,9 +160,6 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='item'>
-                  {/* <a id="send_message" href="#">
-                    Send Message
-                  </a> */}
                   <input
                     className='a'
                     type='submit'
@@ -173,12 +169,12 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </form>
+          </form> */}
           {/* /Contact Form */}
           {/* Contact Info */}
-          <div className='resumo_fn_contact_info'>
-            <p>Location</p>
-            <h3>Lahore, Pakistan</h3>
+          <div className=''>
+            {/* <p>Location</p>
+            <h3>Lahore, Pakistan</h3> */}
             {/* <p>Phone</p>
             <h3>
               <a href="tel:+7068980751">(+706) 898-0751</a>
@@ -201,7 +197,7 @@ const Contact = () => {
               <br />
               <a
                 className='fn__link'
-                href='https://www.linkedin.com/in/salman-danish-04388175/'
+                href='https://www.linkedin.com/in/sdanish1/'
                 target='_blank'
                 rel="noreferrer"
               >
