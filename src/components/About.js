@@ -155,17 +155,40 @@ const About = () => {
                         <p>
                           <ul className='experience-list'>
                             <li>
-                              Design and development of new features of web applications.
+                              Serve as the sole frontend engineer within a 4-person Core Team, owning frontend architecture, implementation, testing and production delivery for platform features used across approximately 60 organizations.
                             </li>
                             <li>
-                              Collaboration with managers to gather requirements and develop new
-                              functionalities.
+                              Architected and delivered a new Angular-based real-time chat system, replacing the legacy JavaScript implementation and supporting internal and external participants through email-based access. Designed the solution across ~10 Angular components and integrated it across 3 dependent teams.
                             </li>
                             <li>
-                              Collaboration with QA team to make bug free and stable applications.
+                              Engineered chat workflows supporting approximately 15-20 participants per conversation, ~30-40 messages per day per active chat, and image attachments of up to 10 images per message.
                             </li>
                             <li>
-                              Realtime chat implementation.
+                              Led the migration of 3 legacy AngularJS modules covering ~10 screens and ~30 components to Angular 19, while introducing 3 new application routes and modernizing the frontend architecture.
+                            </li>
+                            <li>
+                              Reduced application page load time by ~70%, from approximately 10 seconds to 3 seconds, through OnPush change detection, lazy loading, AOT compilation, pure pipes, and Angular Signals.
+                            </li>
+                            <li>
+                              Designed and integrated OneSignal push notifications supporting approximately 1,500 notifications per day across multiple organizations and 4 notification types.
+                            </li>
+                            <li>
+                              Implemented application state management using NgRx and Signal Store across complex workflows, applying reusable architectural patterns to maintain scalable and testable code.
+                            </li>
+                            <li>
+                              Implemented internationalization across 4 languages and integrated REST and GraphQL APIs to support multi-language product releases and platform functionality.
+                            </li>
+                            <li>
+                              Maintained ~85% automated test coverage using Jest and end-to-end testing, supported by 5 CI/CD pipelines and biweekly production deployments.
+                            </li>
+                            <li>
+                              Collaborated with cross-functional teams to take features from technical design, documentation, and Figma implementation through code review, testing, CI/CD, and production release.
+                            </li>
+                            <li>
+                              Designed and deployed scalable AI agentic systems using Claude Code, reducing time-to-market for production features by 70% while ensuring code quality.
+                            </li>
+                            <li>
+                              Implemented web accessibility best practices during the migration of legacy modules to ensure inclusivity and compliance with modern interface standards.
                             </li>
                           </ul>{' '}
                         </p>
@@ -181,31 +204,31 @@ const About = () => {
                         <p>
                           <ul className='experience-list'>
                             <li>
-                              Developing web applications according to requirements. 
+                              Delivered full-stack solutions across three concurrent engagements Social27, ALEC, and an internal platform—owning features from technical design through production deployment. 
                             </li>
                             <li>
-                              Design and development of new features of web applications.
+                              Developed and maintained a platform serving 50,000+ active users, including real-time communication and high-volume data processing capabilities.
                             </li>
                             <li>
-                              Developing micro services using .NET Core and MongoDB where gRPC was used for internal API communication.
+                              Built a bulk-upload pipeline capable of processing up to 100,000 records per execution.
                             </li>
                             <li>
-                              Collaboration with managers to gather requirements and develop new functionalities.
+                              Led system design and database design for .NET Core microservices backed by MongoDB, using gRPC for internal service communication and integrating Salesforce for enterprise data exchange.
                             </li>
                             <li>
-                              Collaboration with QA team to make bug free and stable applications.
+                              Improved Angular application performance through NgRx state management, OnPush change detection, lazy loading and AOT compilation.
                             </li>
                             <li >    
-							                Integrations of our applications with external applications.
+							                Owned end-to-end development of the ALEC E-Forms platform as the sole full-stack engineer, delivering dynamic form creation, PDF generation, role-based access control, and automated workflows through Power Automate.
                             </li>
                             <li>
-                              Chat Implementation with 50000 active users.
+                              CLed a two-developer backend team on an internal product, coordinating technical delivery across frontend and backend workstreams.
                             </li>
                             <li>
-                              Bulk upload implementation with logs and errors.
+                              Managed Azure DevOps CI/CD pipelines and partnered with QA to resolve defects and maintain stable production releases.
                             </li>
                             <li>
-                              Azure DevOps services. 
+                              Developed an ecommerce and POS application using Node.js and PostgreSQL, owning full-stack delivery from database schema design through API implementation and frontend integration.
                             </li>
                           </ul>{' '}
                         </p>
@@ -221,28 +244,28 @@ const About = () => {
                         <p>
                           <ul className='experience-list'>
                             <li>
-                            Designed UI/UX of TechnoCares website. 
+                              Progressed into a full-stack delivery and leadership role, taking ownership of project execution, team coordination, and developer mentorship.
                             </li>
                             <li>
-                            Developed, designed and implemented Front-end in Angular using Now UI kit, Sass and jQuery. 
+                              Led three frontend developers in redesigning a 20+ screen application within one week despite having no prior knowledge of the existing codebase.
                             </li>
                             <li>
-                            Integration of Angular front-end with REST API's. 
+                              Developed a role-based Workshop Maintenance System for the automotive industry, supporting ticket management, technician assignment, inspections, billing, and vehicle delivery workflows for 50+ internal users.
                             </li>
                             <li>
-                            Managed 3 members of team and delivered products on time. 
+                              Contributed to a car marketplace platform serving 5,000+ users and redesigned the corporate website to modernize its UI/UX, ensuring a fully responsive design across all devices.
                             </li>
                             <li>
-                              Designed SVG's for Workshop Maintenance System.
+                              Built Angular applications using Angular 7, Bootstrap, and Now UI Kit, with real-time notifications implemented through SignalR.
                             </li>
                             <li>
-                              Coordinated with team for requirement gathering for Workshop Management System.
+                              Integrated REST APIs with ASP.NET and developed SQL stored procedures supporting application functionality.
                             </li>
                             <li>
-                              Helped fellow team in delivering new feature modules just-in-time without any domain knowledge of project.
+                              Mentored and guided 4-5 interns, coordinated development and QA workflows, and drove resolution of production issues to support stable and timely releases.
                             </li>
                             <li>
-                              Store procedure modification and API changes according to requirements.
+                              Conducted rigorous cross-browser compatibility testing during the development of web applications to ensure consistent performance and UI rendering across Chrome, Firefox, Safari, and Edge.
                             </li> 
                           </ul>{' '}
                         </p>
@@ -258,16 +281,19 @@ const About = () => {
                         <p>
                           <ul className='experience-list'>
                             <li>
-                              Developed and customize business reports using crystal reports. 
+                              Developed and optimized SQL stored procedures for application data retrieval and reporting.
                             </li>
                             <li>
-                              Listening to customers issue and providing them the best possible solution. 
+                              Created and customized Crystal Reports based on client business requirements.
                             </li>
                             <li>
-                              Training and assigning tasks to interns. 
+                              Coordinated deployment of 15 servers and configuration of 40 client machines with a team of three interns.
                             </li>
                             <li>
-                              Setting up servers and client systems.
+                              Resolved approximately 75 customer support tickets per month while maintaining a 95% customer satisfaction rate.
+                            </li>
+                            <li>
+                              Gathered client requirements and coordinated with development teams to resolve technical issues and support successful deployments.
                             </li>
                           </ul>{' '}
                         </p>
