@@ -14,6 +14,16 @@ const Modalbox = ({ close, value }) => {
       img: 'img/portfolio/facelift01.png'
     },
     {
+      name: 'Appointment Chat Bot',
+      tag: 'React, Express API, Mistral, PostgreSQL',
+      desc: [
+        {
+          p: 'Book appointments by chatting. A React SPA with an embedded assistant, an Express API, Mistral for understanding what people ask for, and a PostgreSQL schema built for multi-tenant SaaS.',
+        },
+      ],
+      img: 'img/portfolio/appointment-chat-bot.png'
+    },
+    {
       name: 'E-Forms',
       tag: 'Angular 12, .Net core, Cosmos DB, Power Automate, git, Azure, HTML, CSS, Tailwind CSS, Kendo, Form.io',
       desc: [
@@ -162,7 +172,7 @@ const Modalbox = ({ close, value }) => {
               className='prev'
               onClick={(e) => {
                 e.preventDefault();
-                setIndex(index == 1 ? 10 : index - 1);
+                setIndex(index == 1 ? 11 : index - 1);
               }}
             >
               <span className='text'>Prev</span>
@@ -175,7 +185,7 @@ const Modalbox = ({ close, value }) => {
               className='next'
               onClick={(e) => {
                 e.preventDefault();
-                setIndex(index == 10 ? 1 : index + 1);
+                setIndex(index == 11 ? 1 : index + 1);
               }}
             >
               <span className='text'>Next</span>

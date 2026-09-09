@@ -67,6 +67,29 @@ const Portfolio = () => {
               data-index={2}
             >
               <div className='img_holder'>
+                <img src='img/portfolio/appointment-chat-bot.png' alt='image' />
+                <div
+                  className='abs_img'
+                  data-bg-img='img/portfolio/appointment-chat-bot.png'
+                />
+              </div>
+              <div className='title_holder'>
+                <p>Full Stack Developer</p>
+                <h3>
+                  <a href='#'>Appointment Chat Bot</a>
+                </h3>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide
+              className='item modal_item'
+              onClick={() => {
+                setModal(true);
+                setModalValue(3);
+              }}
+              data-index={3}
+            >
+              <div className='img_holder'>
                 <img src='img/portfolio/eforms.png' alt='image' />
                 <div
                   className='abs_img'
@@ -85,9 +108,9 @@ const Portfolio = () => {
               className='item modal_item'
               onClick={() => {
                 setModal(true);
-                setModalValue(3);
+                setModalValue(4);
               }}
-              data-index={3}
+              data-index={4}
             >
               <div className='img_holder'>
                 <img src='img/portfolio/ENT2.png' alt='image' />
@@ -108,9 +131,9 @@ const Portfolio = () => {
               className='item modal_item'
               onClick={() => {
                 setModal(true);
-                setModalValue(4);
+                setModalValue(5);
               }}
-              data-index={4}
+              data-index={5}
             >
               <div className='img_holder'>
                 <img src='img/portfolio/ENTevent.png' alt='image' />
@@ -131,9 +154,9 @@ const Portfolio = () => {
               className='item modal_item'
               onClick={() => {
                 setModal(true);
-                setModalValue(5);
+                setModalValue(6);
               }}
-              data-index={5}
+              data-index={6}
             >
               <div className='img_holder'>
                 <img src='img/portfolio/lite5.png' alt='image' />
@@ -154,9 +177,9 @@ const Portfolio = () => {
               className='item modal_item'
               onClick={() => {
                 setModal(true);
-                setModalValue(6);
+                setModalValue(7);
               }}
-              data-index={6}
+              data-index={7}
             >
               <div className='img_holder'>
                 <img src='img/portfolio/Liteevent.png' alt='image' />
@@ -177,9 +200,9 @@ const Portfolio = () => {
               className='item modal_item'
               onClick={() => {
                 setModal(true);
-                setModalValue(7);
+                setModalValue(8);
               }}
-              data-index={7}
+              data-index={8}
             >
               <div className='img_holder'>
                 <img src='img/portfolio/dawaloo.png' alt='image' />
@@ -200,9 +223,9 @@ const Portfolio = () => {
               className='item modal_item'
               onClick={() => {
                 setModal(true);
-                setModalValue(8);
+                setModalValue(9);
               }}
-              data-index={8}
+              data-index={9}
             >
               <div className='img_holder'>
                 <img src='img/portfolio/ah.png' alt='image' />
@@ -223,9 +246,9 @@ const Portfolio = () => {
               className='item modal_item'
               onClick={() => {
                 setModal(true);
-                setModalValue(9);
+                setModalValue(10);
               }}
-              data-index={9}
+              data-index={10}
             >
               <div className='img_holder'>
                 <img src='img/portfolio/dooz.jpeg' alt='image' />
@@ -246,9 +269,9 @@ const Portfolio = () => {
               className='item modal_item'
               onClick={() => {
                 setModal(true);
-                setModalValue(10);
+                setModalValue(11);
               }}
-              data-index={10}
+              data-index={11}
             >
               <div className='img_holder'>
                 <img src='img/portfolio/technocares.png' alt='image' />
