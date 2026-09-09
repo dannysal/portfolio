@@ -12,8 +12,19 @@ const About = () => {
             <h3 className='subtitle'>About Me</h3>
             <h3 className='title'>Biography</h3>
             <p className='desc'>
-              {/* {`Highly passionate individual with a strong interest in developing and designing projects that require strong analytical and conceptual thinking. Ambitious to learn new technologies. Alongside technical skills in IT, I am a tech enthusiast and have experience in photography.`} */}
-              {`Senior Software Engineer with 7+ years of experience designing and delivering enterprise web applications across frontend and backend systems. Specialized in AI, Angular, React, TypeScript, .NET Core, SQL, REST APIs, and modern application architecture, with experience building systems used by 50,000+ users. Own end-to-end feature delivery from architecture and implementation through automated testing, CI/CD, and production deployment. Experienced in modernizing legacy AngularJS applications, reducing page load times by up to 70%, building real-time communication and notification systems, designing microservices, and collaborating across product, design, QA, and engineering teams to deliver maintainablep roduction systems.`}
+              {`I'm a Full Stack Software Engineer who enjoys building software from the ground up and solving problems that require both technical depth and product thinking.`}
+            </p>
+            <p className='desc'>
+              {`Over the course of my career, I've worked across the full development lifecycle—from understanding requirements and designing solutions to implementing features, writing unit and end-to-end tests, reviewing code, and deploying applications through CI/CD pipelines. My experience spans modern frontend development with Angular and React, backend development with .NET Core and Node.js, and data platforms including SQL, MongoDB, and Cosmos DB.`}
+            </p>
+            <p className='desc'>
+              {`In my current work, I'm part of a CORE engineering team where I collaborate closely with product managers, designers, and other engineering teams. I take ownership of features beyond implementation, contributing to technical decisions, UI/UX discussions, architecture, quality, and delivery.`}
+            </p>
+            <p className='desc'>
+              {`More recently, I've been exploring a different way of building software through AI-assisted and agentic development. I use tools such as Claude Code to experiment with workflows where AI can participate in research, planning, implementation, testing, and iterative problem-solving. This has shifted my interest from simply using AI to write code toward understanding how AI can become part of the engineering process itself.`}
+            </p>
+            <p className='desc'>
+              {`I'm particularly interested in building SaaS products, developer tools, and AI-powered applications—and in finding better ways to combine strong engineering practices with the capabilities of modern AI.`}
             </p>
           </div>
           {/* /Main Title */}
